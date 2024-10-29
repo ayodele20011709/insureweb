@@ -17,7 +17,7 @@
     font-size: 10px;
     color:rgb(65, 65, 98);  
     text-align: left;
-    padding-left: 30px;
+    padding-left: 66px;
 }
 
     
@@ -25,7 +25,7 @@
     list-style: none;
     display: flex;
     gap: 30px;
-    padding-right: 50px;
+    padding-right: 56px;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@
     text-decoration: none;
     text-align: center;
     font-size: 10px;
-    color: rgb(69, 17, 69);
+    color: rgb(65, 65, 98); 
 }
 
 .nav-links button{
@@ -62,7 +62,7 @@ section{
 
 .body{
     text-align: left;
-    padding-left: 35px;
+    padding-left: 70px;
 }
 
 .body hr{
@@ -80,7 +80,7 @@ section{
 }
 
 .body p{
-    font-size: 1rem;
+    font-size: 15px;
     margin-bottom: 30px;
 }
 
@@ -126,7 +126,7 @@ section{
 }
 
 .pattern2{
-    top: 50px;
+    border-top-left-radius: 0px;
     width: 150px; 
     height: 10px;
     padding-bottom: 2px;   
@@ -148,16 +148,16 @@ hr{
 .heading2{
     font-size: 1.2rem;
     margin-bottom: 20px; 
-    padding-left: 30px;
+    padding-left: 70px;
     padding-top: 250px;
 }
 
 .features{
-    padding-left: 35px;
+    padding-left: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 60px;
+    width: 980px;
 }
 
 .features feature1 icon1{
@@ -170,7 +170,7 @@ hr{
 }
 
 .features feature1 p{
-    font-size: 0.9rem;
+    font-size: 10px;
     margin-bottom: 25px;  
 }
 
@@ -198,13 +198,13 @@ hr{
 }
 
 .features feature3 p{
-    font-size: 0.9rem;
+    font-size: 10px;
     margin-bottom: 25px;  
 }
 
 
 
-.footer{
+.below{
     padding: 20px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -218,7 +218,7 @@ hr{
   display: flex;               
   justify-content: space-between; 
   align-items: center;  
-  width: 980px;            
+  width: 900px;            
   height: 170px;             
   background-color:  rgb(65, 65, 98);   
   color: white;             
@@ -235,29 +235,110 @@ hr{
     padding-left: 37px;
 }
 
-.right{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-block-end: 10px;
-}
 
 
   .right1{     
-    padding: 10px 25px;
+    padding: 15px 30px;
     background-color: rgb(65, 65, 98);
     color: white;
     font-size: 1rem;
     cursor: pointer; 
     border-color: white;
-    margin-top: -100px; 
+    margin-bottom: 30px;
     }
 
 
-.right pattern3{
-    width: 80px;
-    position: absolute;
+    .pattern3{
+        border-left: 100px;
+        right: 57px;
+        position: absolute;          
+        height: auto; 
+    }
+
+
+footer{
+    padding-top: 100px;
+    text-align: center;
+    padding-left: 35px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(243, 241, 241);
+
+}
+   
+
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:   rgb(243, 241, 241);
+    padding-top: 50px;
 }
 
 
-   
+
+
+
+.logo2{
+    font-size: 10px;
+    color:rgb(65, 65, 98);  
+    text-align: left;
+    padding-left: 55px;
+}
+
+.pattern4{
+    border-bottom: 100px;
+    left: 10px;
+    position: absolute;          
+    height: auto;
+    border-radius: 50%;
+
+}
+    
+.media{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    padding-right: 36px;
+}
+
+
+.hrr{
+    border: none;
+    border-top: 2px solid rgb(232, 223, 223); /* Line color and thickness */
+    width: 100vw; 
+    margin: 0 auto 20px; 
+}
+
+.ourfooters{
+    list-style: none;
+    display: flex;
+    gap: 140px;
+    padding-right: 45px;
+    padding-left: 80px;
+    text-align: left;
+    background-color: rgb(243, 241, 241);
+    padding-bottom: 60px;
+    padding-top: 50px;
+    font-size: 13px;
+
+}
+
+.ourfooters h3{
+    color: rgb(173, 162, 162);
+}
+
+
+.ourfooters li a{
+    text-decoration: none;
+    color: rgb(65, 65, 98);;
+}
+
+
+
+
